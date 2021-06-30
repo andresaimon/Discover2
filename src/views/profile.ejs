@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#41414C" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
-    <title>JobsCalc</title>
+    <title>Logi Ohm</title>
 
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="stylesheet" href="/styles/partials/page-header.css" />
@@ -25,7 +25,7 @@
   </head>
   <body id="page-profile">
 
-    <%- include('parts/page-header', { title: "Meu Perfil"}) %> 
+    <%- include('parts/page-header', { title: "Dj"}) %> 
 
     <div class="container animate-up delay-2">
       <aside class="card">
@@ -44,7 +44,7 @@
           method="post"
           action="/profile">
           <fieldset>
-            <legend>Dados do perfil</legend>
+            <legend>Dados do Dj</legend>
             <div class="separator light"></div>
 
             <div class="input-group">
@@ -70,12 +70,12 @@
           </fieldset>
 
           <fieldset>
-            <legend>Planejamento</legend>
+            <legend>Planejamento financeiro</legend>
             <div class="separator light"> </div>
 
             <div class="input-group">
               <div class="input-wrapper">
-                <label for="monthly-budget">Quanto eu <br/>quero ganhar por mês?</label>
+                <label for="monthly-budget">Ganho mensal<br/>pretendido</label>
                 <input 
                   type="amount"
                   step="0.1" 
@@ -86,8 +86,8 @@
               </div>
 
               <div class="input-wrapper">
-                <label for="hours-per-day">Quantas horas <br/>
-                  quero trabalhar por dia?</label>
+                <label for="hours-per-day">Horas <br/>
+                  por evento</label>
                 <input 
                   type="number"
                   id="hours-per-day" 
@@ -98,8 +98,8 @@
 
             <div class="input-group">
               <div class="input-wrapper">
-                <label for="days-per-week">Quantos dias <br/>quero
-                  trabalhar por semana?</label>
+                <label for="days-per-week">Eventos <br/> por
+                  semana</label>
                 <input
                   type="number"
                   id="days-per-week" 
@@ -108,8 +108,8 @@
               </div>
 
               <div class="input-wrapper">
-                <label for="vacation-per-year">Quantas semanas <br/>
-                  por ano você quer tirar férias?</label>
+                <label for="vacation-per-year">Semanas <br/>
+                  de férias por ano</label>
                 <input 
                   type="number" 
                   id="vacation-per-year" 

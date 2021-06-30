@@ -33,13 +33,13 @@ await db.run(`INSERT INTO profile (
     vacation_per_year,
     value_hour
 ) VALUES (
-    "Andre",
-    "https://avatars.githubusercontent.com/u/69746232?v=4",
+    "Alok",
+    "https://pbs.twimg.com/profile_images/1340510288756568064/mhCO729E_400x400.jpg",
     3000,
     5,
-    5,
+    2,
     4,
-    70
+    75
 );`)
 
 await db.run(`INSERT INTO jobs (
@@ -48,9 +48,9 @@ await db.run(`INSERT INTO jobs (
     total_hours,
     created_at
 ) VALUES (
-    "Pizzaria Guloso",
+    "Universo Pararello",
+    7,
     2,
-    1,
     1617514376018
 );`)
 
@@ -60,9 +60,9 @@ await db.run(`INSERT INTO jobs (
     total_hours,
     created_at
 ) VALUES (
-    "OneTwo Projects",
-    3,
-    47,
+    "Ressonar Festival",
+    6,
+    1,
     1617514376018
 );`)
 
